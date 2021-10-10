@@ -21,8 +21,8 @@ const Fetching = () => {
   }, []);
 
   return (
-    <div>
-     
+   
+     <>
       {products.map((product) => (
          <div className="cardDisplay">
           <img src={product.image}/>
@@ -37,9 +37,9 @@ const Fetching = () => {
       ))}
 
 
+</>
 
-
-    </div>
+   
   );
 };
 
