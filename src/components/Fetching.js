@@ -22,7 +22,7 @@ const Fetching = () => {
 
   return (
     <div>
-      <h1>Data is Loading....</h1>
+     
       {products.map((product) => (
          <div className="cardDisplay">
           <img src={product.image}/>
