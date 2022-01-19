@@ -1,14 +1,11 @@
-import React from 'react';
-
+import React  from 'react';
+import Fetching from "../Fetching"
 const Home = () => {
-  return
-  
-  <div className='container'>
 
-        <h1>Buy some awesome products</h1>
-        <h3>FakeStore fetching data from Product api</h3>
+   
+  return <div>
 
-
+     <Fetching/>
   </div>;
 };
 
